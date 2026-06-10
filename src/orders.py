@@ -4,10 +4,12 @@ class Order:
         self.customer = customer
         self.details = details
         self.timestamp = timestamp
+
 class Node:
     def __init__(self, order):
         self.order = order
         self.next = None
+        
 class LinkedList:
     def __init__(self):
         self.head = None
